@@ -14,3 +14,10 @@ var splitString = fourth.split("");
 var reverseArray = splitString.reverse();
 var joinArray = reverseArray.join("");
 alert(joinArray);
+
+
+$(document).ready(function() {
+  $("img").click(function() {
+    alert("This is a picture.");
+  });
+});
